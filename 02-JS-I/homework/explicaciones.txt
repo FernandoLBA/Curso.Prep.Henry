@@ -1,0 +1,90 @@
+13/07/2021.
+
+## VARIABLES ##
+
+Las variables son espacios en memoria que pueden guardar un valor variable o constante.
+Por ejemplo una variable puede valer 0 y luego valer 2.
+En cambio una constante puede valer 0, y luego no puede ser modificado su valor.
+
+Los tipos de variables:
+
+- var: propia de ES5, es una variable con un scope (ámbito) o zona de visualización global, su valor puede ser modificado.
+
+- let: entro en vigencia con el ES6, es una variable la cual su valor puede ser modificado, tiene un scope o zona de 
+visualización distinta a var.
+
+- const: también entró en vigencia con el ES6, su valor no puede ser modificado, su abreviatura viene de constant o constante.
+
+## STRINGS ##
+
+Las strings son tipos de datos llamados cadenas, están conformados por caractéres alfanuméricos 0 hasta 9, la a hasta la z,
+incluso símbolos, se podría decir que son caracteres como los de un libro o un simple texto, sus valores no pueden ser sometidos a operaciones matemáticas.
+
+## FUNCIONES ##
+
+Las funciones son todas aquellas acciones o funcionalidades que puede ejecutar nuestra aplicación.
+
+Partes de una función:
+
+Una función consta de una palabra reservada, el nombre, sus atributos y las llaves que encierran las instrucciones que 
+realiza y la palabra reservada return que devuelve lo que se le indica.
+
+- Function: es la palabra reservada que le dice al sistema que estamos trabajando con una función.
+
+- Nombre: el nombre de la función puede ser cualquier, normalmente lo relacionamos con el trabajo que realiza la función.
+Ejemplo: function saluda() {};
+
+- Parámetros: los parámetros son los valores que requiere la función para poder funcionar.
+Este puede ser recibido, se le asigna un nombre cualquiera, como saludo, por ejemplo: function saluda( saludo ) {};
+
+- Llaves: posee llaves de apertura y cierre, entre ellas se escribe el código que ejecutará nuestra función.
+Por ejemplo: 
+     function saluda( saludo ) {
+          // código
+     }
+
+- return: la palabra return detiene el código cuando llega a este, y devuelve lo que se le indique, es una forma de sacar las 
+información, resultados, etc. De la función. En este caso devuelve el saludo recibido como parámetro en la función.
+Ejemplo:
+     function saluda( saludo ) {
+          return saludo;
+     }
+
+## DECLARACIONES if ##
+
+Una declaración if es conocida también como una declaración condicional ya que si su condición se cumple realiza las
+acciones que nosotros querramos. Para que un if se cumpla, la condición que encierra entre paréntesis debe ser verdadera,
+de lo contrario no ejecutará su contenido, a menos que coloquemos una segunda palabra reservada llamada else, la cual 
+se ejecuta cuando el if no es verdadero.
+Por ejemplo:
+     // Analizar si b es mayor que a:
+     function mayorQue() {
+          let a = 3, b = 50;
+
+          if ( a > b ) {
+               return 'a es mayor que b';
+          } else { // si no se cumple lo anterior
+               return 'b es mayor que a';
+          };
+     };
+
+     mayorQue(); // el código retornará 'b es mayor que a'
+
+## VALORES BOOLEANOS ##
+
+Los valores booleanos están basados en la lógica de boole, e indican si algo es verdadero o falso. Su lógica funciona con
+unos (1) para encendido o true y ceros (0) para apagado o false.
+
+Tipos de valores booleanos:
+
+- true: este valor aparece cuando una condición es verdadera.
+Por ejemplo: 
+a = 1
+b = 1
+si a y b son iguales, devolverá un valor booleano true.
+
+- false: este valor aparece cuando una condición es falsa.
+Por ejemplo: 
+a = 2
+b = 1
+si a y b son iguales, como no lo son, devuelve un valor booleano false.
