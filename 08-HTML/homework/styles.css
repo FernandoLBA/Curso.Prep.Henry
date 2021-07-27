@@ -1,17 +1,29 @@
-h1 {
-     color: crimson;
+body{
+     align-items: center;
+     background: no-repeat url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperboat.com%2Fwp-content%2Fuploads%2F2020%2F06%2F26%2F49250%2Fgradient-02.jpg&f=1&nofb=1');
+     color: white;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
 }
+
+h1 {
+     color: ivory;
+}
+
 img {
      width: 400px;
 }
-#thirdDiv {
-     background-color: darkorange;
-     border: 4px solid crimson;
-     height: 600px;
-     padding: 50px;
-     width: 500px;
-}
+
 #spanId {
      margin: 50px;
      font-size: 18px;
+}
+
+#thirdDiv {
+     background-color: darkorange;
+     border: 4px solid #fff;
+     height: 600px;
+     padding: 50px;
+     width: 500px;
 }
